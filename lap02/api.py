@@ -1,5 +1,5 @@
 from flask import Flask, request, jsonify
-from cipher.playfair import PlayFairCipher
+from ex01.cipher.playfair import PlayFairCipher
 
 # Khởi tạo Flask app
 app = Flask(__name__)
